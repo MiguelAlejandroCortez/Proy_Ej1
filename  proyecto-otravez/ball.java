@@ -9,16 +9,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class ball extends Actor
 {
     
-    public ball(int dir)
+    public ball()
     {
-        setRotation(dir);
+        setRotation(50);
     }
     public void act()
     {  
         move(4);
         
         if(atWorldEdge())
-            turn(153);
+            turn(90);
     }
     
     public boolean atWorldEdge()

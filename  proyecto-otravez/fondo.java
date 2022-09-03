@@ -17,7 +17,7 @@ public class fondo extends World
     
     private void prepare()
     {
-        ball ball = new ball(180);
+        ball ball = new ball();
         addObject(ball,30,25);
         ball.setLocation(21,13);
         ball.setLocation(7,9);
